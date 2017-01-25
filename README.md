@@ -15,3 +15,8 @@ auto result = pool.enqueue([](int answer) { return answer; }, 42);
 std::cout << result.get() << std::endl;
 
 ```
+
+Compilation command for Unix:
+```c++
+g++ example.cpp -o executableFile -std=c++14 -pthread
+```
